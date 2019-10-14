@@ -4,7 +4,8 @@ class Student
 attr_accessor :first_name, :last_name
 @knowledge = []
 
-  def iniltialize()
+  def iniltialize(first_name, last_name)
+    @knowledge = knowledge 
   end
 
 
