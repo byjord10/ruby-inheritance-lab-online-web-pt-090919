@@ -1,10 +1,10 @@
 require_relative"./user"
 
 class Student
-  attr_accessor :knowledge x
+  attr_accessor :knowledge 
 
   def iniltialize
-    @knowledge = [] 
+    @knowledge = []
   end
 
 
