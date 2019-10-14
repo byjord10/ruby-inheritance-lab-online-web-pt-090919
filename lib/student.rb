@@ -1,6 +1,5 @@
-require_relative"./user"
 
-class Student
+class Student < User
   attr_accessor :knowledge
 
   def iniltialize
@@ -13,7 +12,7 @@ class Student
 
   def knowledge
     @knowledge
-  end 
+  end
 
 
 end
